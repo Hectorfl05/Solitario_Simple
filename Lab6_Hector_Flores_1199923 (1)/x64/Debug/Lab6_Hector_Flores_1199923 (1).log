@@ -1,0 +1,9 @@
+﻿  Solitario.cpp
+C:\Users\HP\source\repos\Lab6_Hector_Flores_1199923 (1)\Solitario.cpp(231,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\HP\source\repos\Lab6_Hector_Flores_1199923 (1)\Solitario.cpp(292,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\HP\source\repos\Lab6_Hector_Flores_1199923 (1)\Solitario.cpp(320,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\HP\source\repos\Lab6_Hector_Flores_1199923 (1)\Solitario.cpp(408,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\HP\source\repos\Lab6_Hector_Flores_1199923 (1)\Solitario.cpp(150): warning C4715: 'Solitario::GrupoSelec': not all control paths return a value
+C:\Users\HP\source\repos\Lab6_Hector_Flores_1199923 (1)\Solitario.cpp(570): warning C4715: 'Solitario::Rtecla': not all control paths return a value
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Lab6_Hector_Flores_1199923 (1).vcxproj -> C:\Users\HP\source\repos\Lab6_Hector_Flores_1199923 (1)\x64\Debug\Lab6_Hector_Flores_1199923 (1).exe

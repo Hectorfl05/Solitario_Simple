@@ -1,0 +1,2 @@
+C:\Users\HP\source\repos\Lab6_Hector_Flores_1199923 (1)\x64\Debug\Lab6_Hector_Flores_1199923 (1).vcxproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Lab6_Hector_Flores_1199923 (1)\x64\Debug\Lab6_Hector_Flores_1199923 (1).exe
