@@ -1,25 +1,33 @@
-# 🔴🟡 Conecta 4 en Consola (C#)
+# Solitario Simple en C++ ♠️♥️♦️♣️
 
-## 📖 Descripción General
+![Static Badge](https://img.shields.io/badge/Lenguaje-C%2B%2B-%2300599C?logo=cplusplus)
+![Static Badge](https://img.shields.io/badge/Enfoque-Estructuras_Lineales-blueviolet)
 
-Este proyecto implementa el clásico juego **Conecta 4** como una aplicación de consola en C#. El juego sigue las reglas tradicionales:
+Implementación del clásico Solitario (Klondike) en C++ como proyecto académico, utilizando listas enlazadas y pilas para gestionar la lógica del juego.
 
-- **Tablero**: 6 filas × 7 columnas
-- **Objetivo**: Alinear 4 fichas del mismo color (horizontal, vertical o diagonal)
-- **Modos de juego**:
-  - **1 jugador**: Contra la computadora (movimientos aleatorios)
-  - **2 jugadores**: Local (turnos alternados)
+## 📋 Tabla de Contenidos
+- [Objetivos](#-objetivos)
+- [Reglas del Juego](#-reglas-del-juego)
+- [Estructuras de Datos](#%EF%B8%8F-estructuras-de-datos)
+- [Compilación y Ejecución](#-compilación-y-ejecución)
+- [Interfaz](#-interfaz)
+- [Estructura del Proyecto](#-estructura-del-proyecto)
+- [Contexto Académico](#-contexto-académico)
 
-### Características clave:
-- Sistema de historial para registrar los últimos 10 ganadores
-- Temporizador por partida y conteo de turnos
-- Validación de nombres y movimientos
-- Detección automática de victorias/empates
-- Interfaz de consola intuitiva con colores
+## 🎯 Objetivos
+- Implementar **listas enlazadas** para el mazo de cartas
+- Utilizar **pilas** para las columnas del juego
+- Aplicar validaciones de:
+  - Secuencias descendentes (K→Q→J→...→A)
+  - Colores alternados (rojo/negro)
+- Cumplir con los requisitos del Laboratorio 06 de Estructuras Lineales
 
-El proyecto demuestra:
-✔️ Manejo de matrices para el tablero  
-✔️ Programación orientada a objetos en C#  
-✔️ Validación de entradas de usuario  
-✔️ Persistencia básica de datos (historial)  
+## 📜 Reglas del Juego
+1. **Repartición inicial**:
+   - 7 columnas escalonadas (1-7 cartas)
+   - Solo la última carta visible en cada columna
 
+2. **Movimientos válidos**:
+   ```plaintext
+   - Secuencia: 10♠ → 9♥ (descendente + color alterno)
+   - Reyes (K) pueden colocarse en espacios vacíos
