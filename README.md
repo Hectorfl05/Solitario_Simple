@@ -5,15 +5,6 @@
 
 Implementación del clásico Solitario (Klondike) en C++ como proyecto académico, utilizando listas enlazadas y pilas para gestionar la lógica del juego.
 
-## 📋 Tabla de Contenidos
-- [Objetivos](#-objetivos)
-- [Reglas del Juego](#-reglas-del-juego)
-- [Estructuras de Datos](#%EF%B8%8F-estructuras-de-datos)
-- [Compilación y Ejecución](#-compilación-y-ejecución)
-- [Interfaz](#-interfaz)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Contexto Académico](#-contexto-académico)
-
 ## 🎯 Objetivos
 - Implementar **listas enlazadas** para el mazo de cartas
 - Utilizar **pilas** para las columnas del juego
